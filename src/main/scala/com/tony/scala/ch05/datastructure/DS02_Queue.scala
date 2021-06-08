@@ -1,17 +1,30 @@
 package com.tony.scala.ch05.datastructure
 
 object DS02_Queue {
+    def main(args: Array[String]): Unit = {
+//        val queueArray: Node = ArrayBuffer()
+
+    }
 
 }
 
-class Node(val front: Node, val rear: Node, val value:Int){
+//class QueueNode(val front: Node, val rear: Node, val value:Int){
+//
+//
+//}
 
-//    def this(val front: Int, val rear : Int, val value: Int){
+//class Queus{
+//    val queueArray: Node = ArrayBuffer()
+//
+//    def getQueue(): Unit ={
 //
 //    }
 //
-//    def this(){
+//    def showQueue(): Unit ={
 //
 //    }
-
-}
+//
+//    def peek(): Unit ={
+//
+//    }
+//}

@@ -44,6 +44,21 @@ object DS01_SparseArrayDemo {
             println()
         }
 
+        val node = sparseArray(0)
+        val newArray = Array.ofDim[Int](node.row, node.col)
+        for (i <- 1 until sparseArray.length){
+            val currentNode = sparseArray(i)
+            newArray(currentNode.row)(currentNode.col) = currentNode.value
+        }
+
+        for (i <- 0 until newArray.length){
+            for (j <- 0 until newArray(i).length){
+                printf("%d ", newArray(i)(j))
+
+            }
+            println()
+        }
+
 
 
     }
