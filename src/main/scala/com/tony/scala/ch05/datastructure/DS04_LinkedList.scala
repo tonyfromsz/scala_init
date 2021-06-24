@@ -50,7 +50,6 @@ class SingleLinkedList{
     }
 
     def update(node: HeroNode): Unit ={
-        val loops = new Breaks
         if (isEmpty()){
             println("链表为空")
             return
